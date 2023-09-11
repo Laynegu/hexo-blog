@@ -143,7 +143,7 @@ myStatistic.pv()
 
 通过 `console.table( performance.timing )` 可以看到网页的各个性能
 
-![](./img/performance.png)
+![](https://pic.imgdb.cn/item/64ff4ca5661c6c8e549a30c4.png)
 
 ```js
 private initPerformance() {
@@ -226,7 +226,7 @@ PS：以上是一个统计 SDK 的基本估计，可以应对面试，实际工�
 一个网页中引用了 CDN jquery.min.js ，通过 chrome Sources 即可看到之前源码的样子。<br>
 寻找 sourcemap 有两种方式：1. 同目录下的同名文件；2. js 文件最后一样指定（如 wangEditor js）
 
-![](./img/sourcemap1.png)
+![](https://pic.imgdb.cn/item/64ff4d0d661c6c8e549a3915.png)
 
 ### 配置
 sourcemap 是在打包、压缩 js 时生成，通过 webpack 的打包工具即可配置。（可以在 `js-code` 代码环境中测试）<br>
